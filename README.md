@@ -20,5 +20,10 @@ git commit -m"commit msg" (to add the changes from staging area to remote direct
 
 git push origin <branch name> (pushing the changes from local repo to remote repo by branchname ex: git push origin master)
  
-git pull
+git pull repo_url (it will pull all the new files or changed files from central repo and it directly places or connects them into your master branch)
+
+git fetch repo_url (irt does also the same thing but it actually store in a different branch which is not connect with your workflow.so if you are doing git fetch make sure that you do a git merge .so that you actually can see the changes in your local repo)
+git pull = git fetch + merge
+
+
 
