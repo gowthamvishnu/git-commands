@@ -10,10 +10,15 @@ git config --global user.mail "example@mail"
 git config user.name "examplename"(without global)
 git config user.mail "example@mail"(without global)
 
-git clone "repo_url"
+git clone "repo_url"(to clone the remote repo to local workspace)
 
-git log 
-git add "<filename>" / git add .
-git commit -m"commit msg"
-git push origin <branch name>
+git log (irt will tell you total commits information like how many commites done,commitid,commited by whom,commit information etc..)
+
+git add "<filename>" / git add . (adding the files/code/changes to the staging area from local workspace/working area)
+ 
+git commit -m"commit msg" (to add the changes from staging area to remote directory we need to commit the changes with a commit message)
+
+git push origin <branch name> (pushing the changes from local repo to remote repo by branchname ex: git push origin master)
+ 
+git pull
 
