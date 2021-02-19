@@ -25,5 +25,14 @@ git pull repo_url (it will pull all the new files or changed files from central 
 git fetch repo_url (irt does also the same thing but it actually store in a different branch which is not connect with your workflow.so if you are doing git fetch make sure that you do a git merge .so that you actually can see the changes in your local repo)
 git pull = git fetch + merge
 
+git remore add origin repo_url
+
+#GIT_BRANCHING:
+git branch <branchname> (to create branch)
+ if we made some changes in the branch,those changes does not relects on the mainbranch/master brranch.to reflect changes we need to merge.
+ 
+git merge branchname(here branch name means the branch whcih you want to merge in)
+(note:to merge a particular branch we should be in the destination branch)
+
 
 
