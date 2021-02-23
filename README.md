@@ -25,5 +25,24 @@ git pull repo_url (it will pull all the new files or changed files from central 
 git fetch repo_url (irt does also the same thing but it actually store in a different branch which is not connect with your workflow.so if you are doing git fetch make sure that you do a git merge .so that you actually can see the changes in your local repo)
 git pull = git fetch + merge
 
+GIT PULL REQUEST:-
+Pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the base branch.
 
+git reset 
+git revert 
+girt rebase
+git stashing
+git cherrypick
+git working area/local repo
+git index/git staging area
+git branch
+git merge
+git commit
+git log
+git add
+git pull 
+git push
+git clone
+git add
+git configuration
 
