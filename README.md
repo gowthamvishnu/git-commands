@@ -31,6 +31,10 @@ Pull requests let you tell others about changes you've pushed to a branch in a r
 git reset 
 git revert 
 girt rebase
+
+git checkout :to know in ehich branch you are working
+git checkout branch name: to swith to a particular branch
+git checkout -b branchname: it will create branch and switch to the branch
 git stashing
 git cherrypick
 git working area/local repo
