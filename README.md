@@ -12,7 +12,7 @@ git config user.mail "example@mail"(without global)
 
 git clone "repo_url"(to clone the remote repo to local workspace)
 
-git log (irt will tell you total commits information like how many commites done,commitid,commited by whom,commit information etc..)
+git log (it will tell you total commits information like how many commites done,commitid,commited by whom,commit information etc..)
 
 git add "<filename>" / git add . (adding the files/code/changes to the staging area from local workspace/working area)
  
