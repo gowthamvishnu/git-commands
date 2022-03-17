@@ -22,7 +22,7 @@ git push origin <branch name> (pushing the changes from local repo to remote rep
  
 git pull repo_url (it will pull all the new files or changed files from central repo and it directly places or connects them into your master branch)
 
-git fetch repo_url (irt does also the same thing but it actually store in a different branch which is not connect with your workflow.so if you are doing git fetch make sure that you do a git merge .so that you actually can see the changes in your local repo)
+git fetch repo_url (it does also the same thing but it actually store in a different branch which is not connect with your workflow.so if you are doing git fetch make sure that you do a git merge .so that you actually can see the changes in your local repo)
 git pull = git fetch + merge
 
 GIT PULL REQUEST:-
@@ -32,7 +32,7 @@ git reset
 git revert 
 girt rebase
 
-git checkout :to know in ehich branch you are working
+git checkout :to know in which branch you are working
 git checkout branch name: to swith to a particular branch
 git checkout -b branchname: it will create branch and switch to the branch
 git stashing
